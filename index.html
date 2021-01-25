@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Progress</title>
+    <script type="text/javascript" src="console.js"> </script>
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0/css/reveal.min.css" />
+    <!-- inject:css -->
+    <link rel="stylesheet" href="css/style.min.css">
+    <!-- endinject -->
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i["GoogleAnalyticsObject"] = r;
+            (i[r] =
+                i[r] ||
+                function() {
+                    (i[r].q = i[r].q || []).push(arguments);
+                }),
+            (i[r].l = 1 * new Date());
+            (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m);
+        })(
+            window,
+            document,
+            "script",
+            "//www.google-analytics.com/analytics.js",
+            "ga"
+        );
+
+        ga("create", "UA-72165255-1", "auto");
+        ga("send", "pageview");
+    </script>
+</head>
+
+<body class="body" onload="printconsole()">
+    <div class="reveal main" id="main-content">
+        <div class="slides">
+            <section>
+                <div class="main-header">
+                    <div class="dash"></div>
+                    <h1>Progress</h1>
+                    <h5>In a nutshell</h5>
+                </div>
+                <div class="social-icons">
+                    <a class="icon" target="_blank" href="https://www.github.com/thecoder-001/progress-in-a-nutshell">
+                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <title>GitHub icon</title>
+                            <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                        </svg>
+                    </a>
+                    <a class="icon" target="_blank" href="https://discord.gg/sCaTtuauMm">
+                        <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <title>Discord Icon</title>
+                            <path d="M20.222 0c1.406 0 2.54 1.137 2.607 2.475V24l-2.677-2.273l-1.47-1.338l-1.604-1.398l.67 2.205H3.71c-1.402 0-2.54-1.065-2.54-2.476V2.48C1.17 1.142 2.31.003 3.715.003h16.5L20.222 0zm-6.118 5.683h-.03l-.202.2c2.073.6 3.076 1.537 3.076 1.537c-1.336-.668-2.54-1.002-3.744-1.137c-.87-.135-1.74-.064-2.475 0h-.2c-.47 0-1.47.2-2.81.735c-.467.203-.735.336-.735.336s1.002-1.002 3.21-1.537l-.135-.135s-1.672-.064-3.477 1.27c0 0-1.805 3.144-1.805 7.02c0 0 1 1.74 3.743 1.806c0 0 .4-.533.805-1.002c-1.54-.468-2.14-1.404-2.14-1.404s.134.066.335.2h.06c.03 0 .044.015.06.03v.006c.016.016.03.03.06.03c.33.136.66.27.93.4a8.18 8.18 0 0 0 1.8.536c.93.135 1.996.2 3.21 0c.6-.135 1.2-.267 1.8-.535c.39-.2.87-.4 1.397-.737c0 0-.6.936-2.205 1.404c.33.466.795 1 .795 1c2.744-.06 3.81-1.8 3.87-1.726c0-3.87-1.815-7.02-1.815-7.02c-1.635-1.214-3.165-1.26-3.435-1.26l.056-.02zm.168 4.413c.703 0 1.27.6 1.27 1.335c0 .74-.57 1.34-1.27 1.34c-.7 0-1.27-.6-1.27-1.334c.002-.74.573-1.338 1.27-1.338zm-4.543 0c.7 0 1.266.6 1.266 1.335c0 .74-.57 1.34-1.27 1.34c-.7 0-1.27-.6-1.27-1.334c0-.74.57-1.338 1.27-1.338z" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="instructions" id="instructions">
+                    <p>
+                        Navigate using the <span class="bold">arrow keys</span> or the
+                        <span class="bold">spacebar</span>.
+                    </p>
+                </div>
+                <div class="instructions" id="mobile-instructions">
+                    <p><span class="bold">Swipe</span> to navigate.</p>
+                </div>
+            </section>
+            <section>
+                <section data-background="#161616" data-background-transition="slide">
+                    <div class="main-header">
+                        <div class="dash"></div>
+                        <h2>Progress</h2>
+                        <div class="arrow-down bounce">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="0.8em" height="1em" style="
+                    -ms-transform: rotate(360deg);
+                    -webkit-transform: rotate(360deg);
+                    transform: rotate(360deg);
+                  " preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1280">
+                                <g transform="translate(0 1280) scale(1 -1)">
+                                    <path d="M1011 1056q0 13-10 23l-50 50q-10 10-23 10t-23-10L512 736l-393 393q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l466 466q10 10 10 23zm0-384q0 13-10 23l-50 50q-10 10-23 10t-23-10L512 352L119 745q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l466 466q10 10 10 23z" fill="#fff" />
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </section>
+                <section data-background="#161616" data-background-transition="slide" data-transition="slide">
+                    <ul class="about-items">
+                        <li>
+                            <span class="accent">Start as a human</span>
+                        </li>
+                        <li class="fragment" data-fragment-index="1">
+                            and evolve
+                            <span class="accent">Into</span> A GOD
+                        </li>
+                        <li class="fragment" data-fragment-index="2">
+                            explore <span class="accent">science</span>.
+                        </li>
+                    </ul>
+                </section>
+            </section>
+            <section>
+                <section data-background="#161616" data-background-transition="slide">
+                    <div class="main-header">
+                        <div class="dash"></div>
+                        <h2>About</h2>
+                        <div class="arrow-down bounce">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="0.8em" height="1em" style="
+                  -ms-transform: rotate(360deg);
+                  -webkit-transform: rotate(360deg);
+                  transform: rotate(360deg);
+                " preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1280">
+                                <g transform="translate(0 1280) scale(1 -1)">
+                                    <path d="M1011 1056q0 13-10 23l-50 50q-10 10-23 10t-23-10L512 736l-393 393q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l466 466q10 10 10 23zm0-384q0 13-10 23l-50 50q-10 10-23 10t-23-10L512 352L119 745q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l466 466q10 10 10 23z" fill="#fff" />
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </section>
+                <section data-background="#161616" data-background-transition="slide" data-transition="slide">
+                    <ul class="about-items">
+                        <li>
+                            <span class="accent">Based on Kurzegasat</span>
+                        </li>
+                        <li class="fragment" data-fragment-index="1">
+                            <span class="accent">Written in Godot</span>
+                        </li>
+                    </ul>
+                </section>
+            </section>
+            <section data-background-transition="fade" data-transition="fade">
+                <div class="contact">
+                    <h3>Want to work on progress??</h3>
+                    <a href="https://discord.gg/sCaTtuauMm">
+                        <div class="main-btn">JOIN NOW</div>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.2.0/js/reveal.min.js"></script>
+    <script type="text/javascript" src="js/main.min.js"></script>
+</body>
+
+</html>
